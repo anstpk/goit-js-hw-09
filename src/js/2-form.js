@@ -14,7 +14,7 @@ function loadFromLS(key) {
   }
 }
 
-const form = document.querySelector('.form')
+const form = document.querySelector('.feedback-form')
 
 const formData = {
   email: "", 
