@@ -24,6 +24,8 @@ const formData = {
 const STORAGE_KEY = 'feedback-form-state';
 
 form.addEventListener('input', (evt) => {
+  console.log("input");
+  
   if (evt.target === form.elements.email) {
     formData.email = evt.target.value;
   } else if (evt.target === form.elements.message) {
